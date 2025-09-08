@@ -1,4 +1,4 @@
-# Online chess
+# Door to Door Sales Tracker
 
 [My Notes](notes.md)
 
