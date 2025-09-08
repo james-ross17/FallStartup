@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This application will allow users to mark neighborhoods that they've already sold in and record who they have business with and where they live. It will keep their contact information as well as what type of business they are selling so that other sellers can know how saturated certain neighborhoods are with their specific service. I would also like to add a customer view to the app so that they can see who is near them so they can find people to do services they are interested in.
 
 
 > [!NOTE]
