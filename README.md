@@ -1,4 +1,4 @@
-# Your startup name here
+# Online chess
 
 [My Notes](notes.md)
 
