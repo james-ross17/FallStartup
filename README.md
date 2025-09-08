@@ -1,6 +1,6 @@
 # Door to Door Sales Tracker
 
-[My Notes](notes.md)
+[My Notes](sales-notes)
 
 This application will allow users to mark neighborhoods that they've already sold in and record who they have business with and where they live. It will keep their contact information as well as what type of business they are selling so that other sellers can know how saturated certain neighborhoods are with their specific service. I would also like to add a customer view to the app so that they can see who is near them so they can find people to do services they are interested in.
 
