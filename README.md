@@ -43,19 +43,21 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Individual and secure profiles through HTTPS
+- Access to Google Maps to plan routes
+- Record neighborhoods that have already been knocked
+- Live data of competition in the area to recommend non-competitive neighborhoods
+- Keep data of client information and recommend when to reach out to them about providing your services again
 
 ### Technologies
 
-I am going to use the required technologies in the following ways.
+I am going to use the required technologies in the following ways:
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
+- **HTML** - One page for login, one page for planning routes, and one page for viewing places you have already traveled to
+- **CSS** - Create an interface with different tabs to view each page
+- **React** - Provide login, and show how densely populated by salesmen certain neighborhoods are
 - **Service** - Description here
-- **DB/Login** - Description here
+- **DB/Login** - Data kept of all clients the salesman has business with
 - **WebSocket** - Description here
 
 ## 🚀 AWS deliverable
