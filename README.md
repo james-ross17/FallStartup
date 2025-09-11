@@ -21,7 +21,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] Proper use of Markdown
 - [x] A concise and compelling elevator pitch
 - [x] Description of key features
-- [ ] Description of how you will use each technology
+- [x] Description of how you will use each technology
 - [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
@@ -30,16 +30,13 @@ This is the tool for all door to door sellers. It will help keep all of your cli
 
 ### Design
 
-![Design image](placeholder.png)
+![Design image](IMG_7122.jpeg)
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
+
+![Backend design](IMG_7123.jpeg)
+
 
 ### Key features
 
@@ -56,9 +53,13 @@ I am going to use the required technologies in the following ways:
 - **HTML** - One page for login, one page for planning routes, and one page for viewing places you have already traveled to
 - **CSS** - Create an interface with different tabs to view each page
 - **React** - Provide login, and show how densely populated by salesmen certain neighborhoods are
-- **Service** - Description here
+- **Service** - Backend service with endpoints for
+      -Login
+      -Rating routes
+      -Planning routes
+      -Viewing old routes
 - **DB/Login** - Data kept of all clients the salesman has business with
-- **WebSocket** - Description here
+- **WebSocket** - As other sellers go to an area, it alerts other salesmen of the competition
 
 ## 🚀 AWS deliverable
 
