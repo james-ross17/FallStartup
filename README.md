@@ -71,15 +71,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I created three pages: `index.html` for the login screen, `map.html` for the main sales route planner, and `about.html` to describe the application.
+- [x] **Proper HTML element usage** - I used semantic tags like `<header>`, `<nav>`, `<main>`, and `<footer>` on all three pages to structure the content logically.
+- [x] **Links** - The navigation bar in the `<header>` of each page contains links that allow users to move between the Home, Map, and About pages.
+- [x] **Text** - Each page has descriptive text, including headings and paragraphs, that explains the purpose of the application and the content on that page.
+- [x] **3rd party API placeholder** - On the `map.html` page, I added a placeholder `div` to show where the Google Maps API will be integrated for route planning. 
+- [x] **Images** - I added a company logo in the header of each page.
+- [x] **Login placeholder** - The `index.html` page contains a form with fields for username and password. After "logging in," the header on the other pages displays a placeholder for the user's name.
+- [x] **DB data placeholder** - I included a table on `map.html` with mock data for "Past Routes" and "Client Information" to show where data from the database will eventually be displayed.
+- [x] **WebSocket placeholder** - I added a "Live Competition" feed box on the `map.html` page to represent where real-time alerts from other sellers will appear via WebSockets.
 
 ## 🚀 CSS deliverable
 
