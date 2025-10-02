@@ -83,14 +83,14 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ## 🚀 CSS deliverable
 
-For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
+For this deliverable I did the following. I checked the box [x] and added a description for things I completed.
 
-- [ ] **Header, footer, and main content body** - I did not complete this part of the deliverable.
-- [ ] **Navigation elements** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
-- [ ] **Application images** - I did not complete this part of the deliverable.
+[x] Header, footer, and main content body - I used Flexbox on the body to create a full-page column layout. The header and footer have a distinct background color, and the main content area is styled with padding and grows to fill the available space.
+[x] Navigation elements - I used Flexbox to align the navigation links horizontally. I styled the links to remove the default underline, added padding to make them look like buttons, and included a :hover effect for user interactivity.
+[x] Responsive to window resizing - I added a media query that triggers on screens smaller than 600px. On smaller screens, the navigation links stack vertically to improve usability on mobile devices.
+[x] Application elements - I styled the specific elements of my application. The login form has a distinct background and shadow to make it stand out. The input fields and buttons are also styled with consistent padding, borders, and colors.
+[x] Application text content - I set a global font-family and color for the entire application in the body selector to ensure consistent typography across all pages.
+[x] Application images - I styled the img elements to be responsive by setting max-width: 100%. This prevents them from overflowing their containers on smaller screens. I also added a border-radius for a softer look.
 
 ## 🚀 React part 1: Routing deliverable
 

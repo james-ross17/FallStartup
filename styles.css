@@ -1,0 +1,162 @@
+/* --- Global and Text Styles --- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9; /* Light grey background */
+  color: #333; /* Dark grey text for readability */
+  
+  /* Flexbox for main layout */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.5rem; /* Responsive font size */
+  margin: 0;
+}
+
+a {
+  color: #007bff;
+}
+
+/* --- Header, Footer, and Main Layout --- */
+header, footer {
+  background-color: #0056b3; /* A professional dark blue */
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  gap: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+footer a {
+  color: #add8e6; /* Lighter blue for footer link */
+}
+
+main {
+  flex-grow: 1; /* Ensures main content fills available space */
+  padding: 2rem;
+  text-align: center;
+}
+
+/* --- Navigation Elements --- */
+nav menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #007bff; /* Brighter blue on hover */
+}
+
+.user-display {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* --- Application Elements (Forms, Buttons) --- */
+form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form span {
+  padding: 0.5rem;
+  background-color: #eee;
+  border-right: 1px solid #ccc;
+}
+
+input[type="text"], input[type="password"] {
+  border: none;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #28a745; /* Green for primary actions */
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* --- Images --- */
+/* Header logo specific styling */
+header img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; /* Makes the image circular */
+  border: 2px solid white;
+}
+
+/* General responsive image rule */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- Responsive to Window Resizing --- */
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Stack header items vertically */
+    text-align: center;
+  }
+
+  nav menu {
+    flex-direction: column; /* Stack nav links vertically */
+    width: 100%;
+    align-items: center;
+  }
+}
+
+/* Hides the horizontal rule since CSS provides better styling */
+hr {
+  display: none;
+}
