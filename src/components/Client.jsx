@@ -1,28 +1,37 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 export function Client() {
-  return (
-    <body>
-    <header>
-      <h1>Door to Door Sales Tracker<sup>&reg;</sup></h1>
-      <img src="door.jpeg" alt="Door to Door Sales Tracker Logo" />
-      <nav>
-        <menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="routes.html">View Routes</a></li>
-          <li><a href="client.html">Record client</a></li>
-          <li><a href="about.html">About</a></li>
-        </menu>
-      </nav>
-      <div className="user-display">Current User: James Ross</div>
-
-      <hr />
-    </header>
-
-    <main>
-        <h1>Client Database</h1>
-        <button>Record New Client</button>
-    </main>
-  </body>
-  );
+        const [clients, setClients] = useState([]);
+        useEffect(() => {
+          const mockClients = [
+            { id: 1, name: 'Alice Krandall', address: '123 Main St' },
+            { id: 2, name: 'Bob Stevens', address: '456 Oak Ave' },
+            { id: 3, name: 'Carol Bakedbean', address: '789 Pine Ln' }
+          ];
+      
+          setClients(mockClients);
+      
+        }, []);
+        return (
+            <main>
+              <h1>Client Database</h1>
+              <button>Record New Client</button>
+              <table className="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {clients.map(client => (
+                    <tr key={client.id}>
+                      <td>{client.name}</td>
+                      <td>{client.address}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </main>
+          );
 }

@@ -37,3 +37,16 @@ This deliverable focused on converting the original static HTML/CSS website into
 * Add dynamic functionality and state management to make the forms and trackers interactive.
 * Connect the frontend to a backend service to save and retrieve user data.
 * Implement user login and authentication.
+
+## 🚀 Startup React Phase 2: Interactivity
+
+For this deliverable, I added reactivity to my existing React components.
+
+- [x] **Multiple react components that implement or mock all app functionality (70 pts):**
+    - I implemented a mock login system. The `Login` component now uses `useState` to capture form input and calls a function passed down from `App.jsx` to update the global authentication state.
+    - I implemented mock data loading for the "Client Database." The `Client` component now uses `useEffect` to load a hard-coded array of client data into state, which is then rendered in a table. This mocks the functionality of fetching from a database.
+    - The navigation bar in `App.jsx` is now reactive, conditionally rendering the "Routes" and "Client" links based on the `authState` variable.
+
+- [x] **React useState and useEffect hooks (30 pts):**
+    - **`useState`**: I used `useState` in `App.jsx` to "lift state up" and manage the global `userName` and `authState`. I also used `useState` in `login.jsx` to manage the local state of the form inputs.
+    - **`useEffect`**: I used `useEffect` in `Client.jsx` with an empty dependency array (`[]`) to simulate a one-time data fetch when the component mounts, populating the `clients` state.
