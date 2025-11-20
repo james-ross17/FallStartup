@@ -50,3 +50,14 @@ For this deliverable, I added reactivity to my existing React components.
 - [x] **React useState and useEffect hooks (30 pts):**
     - **`useState`**: I used `useState` in `App.jsx` to "lift state up" and manage the global `userName` and `authState`. I also used `useState` in `login.jsx` to manage the local state of the form inputs.
     - **`useEffect`**: I used `useEffect` in `Client.jsx` with an empty dependency array (`[]`) to simulate a one-time data fetch when the component mounts, populating the `clients` state.
+
+## 🚀 Startup Service
+
+For this deliverable, I successfully transitioned the application to a full-stack architecture using Node.js and Express.
+
+- [x] **Node.js/Express HTTP service:** I created a backend service in the `service/` directory that is run by PM2 and listens on port 5000.
+- [x] **Frontend served by Express:** The service uses `express.static('public')` to serve the bundled React application.
+- [x] **Frontend calls 3rd party service:** My `About` component fetches a random quote from `httpss://api.quotable.io/random` when it loads.
+- [x] **Backend provides service endpoints:** My service provides authentication endpoints (`/api/auth/create`, `/api/auth/login`) and application endpoints (`/api/clients`, `/api/client`).
+- [x] **Frontend calls service endpoints:** The `Login` component calls the auth endpoints, and the `Client` component uses `fetch` to get and add client data via the application endpoints.
+- [x] **Supports auth:** The service implements secure user registration, login, and restricted access to client data using `bcrypt` for password hashing and secure cookies for session management.

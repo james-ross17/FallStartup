@@ -1,27 +1,12 @@
 import React from 'react';
 
-export function Routes() {
+// Use 'export default' and match the name 'RoutesPage'
+export default function RoutesPage() {
   return (
-    <body>
-    <header>
-      <h1>Door to Door Sales Tracker<sup>&reg;</sup></h1>
-      <img src="door.jpeg" alt="Door to Door Sales Tracker Logo" />
-      <nav>
-        <menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="routes.html">View Routes</a></li>
-          <li><a href="client.html">Record client</a></li>
-          <li><a href="about.html">About</a></li>
-        </menu>
-      </nav>
-      <div className="user-display">Current User: James Ross</div>
-
-      <hr />
-    </header>
-
     <main>
-        <h1>Google Maps API</h1>
+      <h1>Google Maps API</h1>
+      <p>Your 3rd party API placeholder for routes will go here.</p>
+      <img src="https://placehold.co/600x400/eee/ccc?text=Map+Placeholder" alt="Map placeholder" />
     </main>
-  </body>
   );
 }
